@@ -1,0 +1,30 @@
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: rgba(45, 62, 80, 1);
+
+  padding: 23px 40px;
+}
+
+.footer__copyright {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 40px;
+
+  margin: 0;
+}
+
+.footer__button {
+  background-color: rgba(22, 160, 134, 1);
+
+  text-align: center;
+  line-height: 60px;
+
+  width: 44px;
+  height: 44px;
+}
+
+.fa {
+  color: rgba(255, 255, 255, 1);
+}

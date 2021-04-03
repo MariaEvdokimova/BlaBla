@@ -1,0 +1,29 @@
+@import '../scss/variables';
+
+.map__canvas {
+  position: relative;
+
+  height: 265px;
+
+  background-color: rgba(220, 222, 223, 1);
+}
+
+.map__caption {
+  font-size: 72px;
+  text-align: center;
+  line-height: 265px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.map__data {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: $tablet-width) and (min-width: $mobile-width) {
+  .map__data {
+    width: 100%;
+  }
+}
