@@ -4,7 +4,7 @@ import {faMapMarkerAlt} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import './Contact.scss';
-import {MapBlock} from "./MapBlock";
+import { MapBlock } from "./MapBlock";
 
 export const Contact: React.FC = () => {
     return (

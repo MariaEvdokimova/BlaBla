@@ -95,3 +95,12 @@
         padding-bottom: 60px;
     }
 }
+@media screen and (max-width: $tablet-width) and (min-width: $mobile-width) {
+    .form__element {
+        width: 100%;
+    }
+
+    .contact__map {
+        padding-bottom: 30px;
+    }
+}

@@ -1,3 +1,5 @@
+@import "../scss/variables";
+
 .footer__wrapper {
   display: flex;
   justify-content: space-between;
@@ -27,4 +29,16 @@
 
 .fa {
   color: rgba(255, 255, 255, 1);
+}
+
+@media screen and (max-width: $tablet-width) and (min-width: $mobile-width) {
+  .footer__copyright {
+    width: 165px;
+    font-size: 11px;
+    line-height: 26px;
+  }
+
+  .footer__wrapper {
+    padding: 23px 29px;
+  }
 }

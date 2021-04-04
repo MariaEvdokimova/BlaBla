@@ -1,0 +1,95 @@
+@import "./variables";
+
+/* lato-regular - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src:
+      url('../fonts/lato-v17-latin-regular.woff2') format("woff2"),
+      url('../fonts/lato-v17-latin-regular.woff') format("woff");
+}
+
+body {
+  min-width: $mobile-width;
+  margin: 0;
+  padding: 0;
+
+  font-family: Lato, 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(68, 68, 68, 1);
+
+  background-color: rgba(255, 255, 255, 1);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.header {
+  margin-top: 27px;
+  margin-bottom: 49px;
+}
+
+.button {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 1);
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+
+  background-color: rgba(27, 188, 155, 1);
+  padding: 11px;
+
+  &:hover {
+    background-color: rgba(22, 160, 134, 1);
+}
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+@media screen and (max-width: $desktop-width) {
+  .container {
+    width: 668px;
+  }
+}
+
+@media screen and (max-width: $tablet-width) and (min-width: $mobile-width) {
+  .footer__wrapper {
+    padding: 23px 29px;
+  }
+
+  .container {
+    width: 260px;
+    padding: 0 29px;
+  }
+}
