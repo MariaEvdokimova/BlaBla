@@ -12,7 +12,7 @@ import './Portfolio.scss';
 
 export const Portfolio: React.FC = () => {
     return (
-        <section className="portfolio container">
+        <section className="portfolio container" id="portfolio">
             <h2 className="portfolio__title">Portfolio</h2>
             <p className="portfolio__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
             <input className="visually-hidden" type="radio" id="all" name="filter" />
@@ -28,7 +28,7 @@ export const Portfolio: React.FC = () => {
             <ul className="portfolio__list">
                 <li className="portfolio__item graphic">
                     <a href="#" className="portfolio__link">
-                        <img src={img1} alt="" width="177" height="180" />
+                        <img src={img1} alt="Graphic design" width="177" height="180" />
                         <div className="portfolio__icon">
                             <IconSearch />
                         </div>
@@ -36,7 +36,7 @@ export const Portfolio: React.FC = () => {
                 </li>
                 <li className="portfolio__item flat">
                     <a href="#" className="portfolio__link">
-                        <img src={img2} alt="" width="177" height="180" />
+                        <img src={img2} alt="Flat design" width="177" height="180" />
                         <div className="portfolio__icon">
                             <IconSearch />
                         </div>
@@ -44,7 +44,7 @@ export const Portfolio: React.FC = () => {
                 </li>
                 <li className="portfolio__item web">
                     <a href="#" className="portfolio__link">
-                        <img src={img3} alt="" width="177" height="180" />
+                        <img src={img3} alt="Web design" width="177" height="180" />
                         <div className="portfolio__icon">
                             <IconSearch />
                         </div>
@@ -52,7 +52,7 @@ export const Portfolio: React.FC = () => {
                 </li>
                 <li className="portfolio__item web">
                     <a href="#" className="portfolio__link">
-                        <img src={img4} alt="" width="177" height="180" />
+                        <img src={img4} alt="Web design" width="177" height="180" />
                         <div className="portfolio__icon">
                             <IconSearch />
                         </div>
@@ -60,7 +60,7 @@ export const Portfolio: React.FC = () => {
                 </li>
                 <li className="portfolio__item graphic">
                     <a href="#" className="portfolio__link">
-                        <img src={img5} alt="" width="177" height="180" />
+                        <img src={img5} alt="Graphic design" width="177" height="180" />
                         <div className="portfolio__icon">
                             <IconSearch />
                         </div>
@@ -68,7 +68,7 @@ export const Portfolio: React.FC = () => {
                 </li>
                 <li className="portfolio__item flat">
                     <a href="#" className="portfolio__link">
-                        <img src={img6} alt="" width="177" height="180" />
+                        <img src={img6} alt="Flat design" width="177" height="180" />
                         <div className="portfolio__icon">
                             <IconSearch />
                         </div>
@@ -76,7 +76,7 @@ export const Portfolio: React.FC = () => {
                 </li>
                 <li className="portfolio__item graphic">
                     <a href="#" className="portfolio__link">
-                        <img src={img1} alt="" width="177" height="180" />
+                        <img src={img1} alt="Graphic design" width="177" height="180" />
                         <div className="portfolio__icon">
                             <IconSearch />
                         </div>
@@ -84,7 +84,7 @@ export const Portfolio: React.FC = () => {
                 </li>
                 <li className="portfolio__item flat">
                     <a href="#" className="portfolio__link">
-                        <img src={img2} alt="" width="177" height="180" />
+                        <img src={img2} alt="Flat design" width="177" height="180" />
                         <div className="portfolio__icon">
                             <IconSearch />
                         </div>

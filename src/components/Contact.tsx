@@ -8,7 +8,7 @@ import { MapBlock } from "./MapBlock";
 
 export const Contact: React.FC = () => {
     return (
-        <section className="contact container">
+        <section className="contact container" id="contact" >
             <h2 className="contact__title">Contact Us</h2>
             <p className="contact__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
             <div className="contact__wrapper">

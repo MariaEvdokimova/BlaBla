@@ -37,10 +37,26 @@ export const Header: React.FC = () => {
                             <FontAwesomeIcon className="main-nav__icon fa-3x" icon={faBars}/>
                         </button>
                         <ul className="main-nav__list">
-                            <li className="main-nav__item">Home</li>
-                            <li className="main-nav__item">Portfolio</li>
-                            <li className="main-nav__item">About</li>
-                            <li className="main-nav__item">Contact</li>
+                            <li className="main-nav__item">
+                                <Link tabindex="0" activeClass="active" to="header" spy={true} smooth={true}>
+                                    Home
+                                </Link>
+                            </li>
+                            <li className="main-nav__item">
+                                <Link tabindex="0" activeClass="active" to="portfolio" spy={true} smooth={true}>
+                                    Portfolio
+                                </Link>
+                            </li>
+                            <li className="main-nav__item">
+                                <Link tabindex="0" activeClass="active" to="about" spy={true} smooth={true}>
+                                    About
+                                </Link>
+                            </li>
+                            <li className="main-nav__item">
+                                <Link tabindex="0" activeClass="active" to="contact" spy={true} smooth={true}>
+                                    Contact
+                                </Link>
+                            </li>
                         </ul>
                     </nav>
                 </div>
@@ -49,7 +65,7 @@ export const Header: React.FC = () => {
                     <p className="jumbotron__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
                         nonummy<br/> nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
                     <div className="jumbotron__button">
-                        <Link activeClass="active" className="button" to="main" spy={true} smooth={true}>
+                        <Link tabindex="0" activeClass="active" className="button" to="main" spy={true} smooth={true}>
                             learn more
                             <FontAwesomeIcon className="jumbotron__icon fa-3x" icon={faChevronCircleDown}/>
                         </Link>

@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 
 const App: React.FC = () => {
   return <>
-    <header className="header">
+    <header className="header" id="header">
       <Header />
     </header>
 

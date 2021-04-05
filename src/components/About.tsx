@@ -8,7 +8,7 @@ import jhonnie from '../img/ava-3.png';
 
 export const About: React.FC = () => {
     return (
-        <section className="about container">
+        <section className="about container" id="about" >
             <h2 className="about__title">About Us</h2>
             <p className="about__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
             <ul className="about__list">
