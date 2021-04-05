@@ -22,7 +22,7 @@ export const Socials: React.FC = () => {
             </a>
             <a className="social__link" href="#">
             <FontAwesomeIcon className="social__icon" icon={['fab', 'dribbble']} />
-        </a>
-    </div>
+            </a>
+        </div>
     )
 };
